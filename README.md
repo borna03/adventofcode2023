@@ -17,7 +17,7 @@ Solutions for the advent of code 2023
   </tr>
   <tr>
     <td>3</td>
-    <td>01:03:45</td>
+    <td>00:53:45</td>
     <td>7262</td>
     <td>0</td>
     <td>01:04:59</td>
