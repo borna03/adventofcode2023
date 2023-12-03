@@ -1,4 +1,7 @@
 import re
+from functools import partial
+import time
+import string
 
 letter_nums = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
@@ -12,6 +15,8 @@ def find_indexes(row, substring):
 
 
 def main():
+    start_time = time.time()
+
     with open("d1input.txt", "r") as f:
         rows = [line.strip() for line in f]
 
@@ -38,6 +43,8 @@ def main():
     # answers to q1 and q2
     print(q1, q2)
 
+    execution_time = time.time() - start_time
+    print(f"Execution Time: {execution_time:.4f} seconds")
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,7 @@
 import re
+from functools import partial
+import time
+import string
 
 blue = 14
 red = 12
@@ -6,6 +9,8 @@ green = 13
 
 
 def main():
+    start_time = time.time()
+
     colors = {"blue": 14, "green": 13, "red": 12}
 
     with open("d2input.txt", "r") as f:
@@ -45,6 +50,9 @@ def main():
 
     # answers to q1 and q2
     print(q1, sum(q2))
+
+    execution_time = time.time() - start_time
+    print(f"Execution Time: {execution_time:.4f} seconds")
 
 
 if __name__ == "__main__":

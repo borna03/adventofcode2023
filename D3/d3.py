@@ -3,7 +3,6 @@ from functools import partial
 import time
 import string
 
-
 def checksymbol(char):
     return not (char.isdigit() or char.isalpha() or char == '.')
 
@@ -41,7 +40,6 @@ def main():
     q1 = 0
     for item in ans:
         q1 += item[0]
-    print(q1)
 
     solved_index = []
     q2 = 0
@@ -54,7 +52,9 @@ def main():
                         sol += ans_gears[i][0] * ans_gears[j][0]
             solved_index.append(ans_gears[i][1])
         q2 += sol
-    print(q2)
+
+    # answers to q1 and q2
+    print(q1, q2)
 
     execution_time = time.time() - start_time
     print(f"Execution Time: {execution_time:.4f} seconds")
