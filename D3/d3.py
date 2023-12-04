@@ -3,6 +3,7 @@ from functools import partial
 import time
 import string
 
+
 def checksymbol(char):
     return not (char.isdigit() or char.isalpha() or char == '.')
 
@@ -30,11 +31,14 @@ def main():
                 for w in range(row - 1, row + 2):
                     for q in range(col - 1, col + 2):
                         if is_valid_position(w, q, size) and (w != row or q != col):
-                            if checksymbol(rows[w][q]):
-                                if rows[w][q] == "*":
-                                    ans_gears.append([int(num.group()), (w, q)])
-                                ans.append([int(num.group()), (w, q)])
-                                found = True
+                            try:
+                                if checksymbol(rows[w][q]):
+                                    if rows[w][q] == "*":
+                                        ans_gears.append([int(num.group()), (w, q)])
+                                    ans.append([int(num.group()), (w, q)])
+                                    found = True
+                            except IndexError:
+                                print("Index error occurred.")
                 if found:
                     break
     q1 = 0

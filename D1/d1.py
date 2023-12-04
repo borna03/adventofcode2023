@@ -4,6 +4,8 @@ import time
 import string
 
 letter_nums = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+sett = {}
+print(len(sett))
 
 
 def find_indexes(row, substring):
@@ -45,6 +47,7 @@ def main():
 
     execution_time = time.time() - start_time
     print(f"Execution Time: {execution_time:.4f} seconds")
+
 
 if __name__ == "__main__":
     main()
