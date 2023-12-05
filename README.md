@@ -15,6 +15,24 @@ Solutions for the advent of code 2023
     <th>Rank</th>
     <th>Score</th>
   </tr>
+    <tr>
+    <td>5</td>
+    <td>01:09:59</td>
+    <td>8996</td>
+    <td>0</td>
+    <td>02:55:05</td>
+    <td>6373</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>00:11:21</td>
+    <td>3819</td>
+    <td>0</td>
+    <td>00:40:49</td>
+    <td>6447</td>
+    <td>0</td>
+  </tr>
   <tr>
     <td>3</td>
     <td>00:53:45</td>
