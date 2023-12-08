@@ -15,7 +15,34 @@ Solutions for the advent of code 2023
     <th>Rank</th>
     <th>Score</th>
   </tr>
-    <tr>
+  <tr>
+    <td>8</td>
+    <td>00:23:51</td>
+    <td>6733</td>
+    <td>0</td>
+    <td>00:40:16</td>
+    <td>2772</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>02:31:50</td>
+    <td>13664</td>
+    <td>0</td>
+    <td>03:39:07</td>
+    <td>13370</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>00:46:44</td>
+    <td>11360</td>
+    <td>0</td>
+    <td>00:52:09</td>
+    <td>10592</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td>5</td>
     <td>01:09:59</td>
     <td>8996</td>
@@ -35,7 +62,7 @@ Solutions for the advent of code 2023
   </tr>
   <tr>
     <td>3</td>
-    <td>00:53:45</td>
+    <td>01:03:45</td>
     <td>7262</td>
     <td>0</td>
     <td>01:04:59</td>
