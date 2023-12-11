@@ -6,9 +6,6 @@ from collections import Counter
 import string
 from itertools import product
 
-with open("d9input.txt") as file:
-    lines = file.read().splitlines()
-
 
 def parse_input(filename="d9input.txt"):
     with open(filename, "r") as f:
