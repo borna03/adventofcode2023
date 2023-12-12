@@ -7,18 +7,6 @@ from collections import defaultdict, Counter, deque
 from itertools import combinations
 from collections import deque
 
-
-def insert_column(matrix, column_index, character):
-    for i in range(len(matrix)):
-        row_as_list = list(matrix[i])
-        row_as_list.insert(column_index, character)
-        matrix[i] = ''.join(row_as_list)
-
-
-# def add_row(matrix, row):
-# matrix[row].append(['.' for i in range(len(matrix[0]))])
-
-
 def generate_all_combinations(array):
     all_combinations = list(combinations(array, 2))
     return all_combinations
@@ -37,20 +25,6 @@ def main():
                     emptyr.remove(i)
                 if j in emptyc:
                     emptyc.remove(j)
-
-    # counter = 0
-    # for item in emptyc:
-    #     insert_column(lines, item + counter, '.')
-    #     counter += 1
-    #
-    # counter2 = 0
-    #
-    # empty = ''
-    # for i in range(len(lines[0])):
-    #     empty += '.'
-    # for item in emptyr:
-    #     lines.insert(item + counter2, empty)
-    #     counter2 += 1
 
     points = []
     c = 1
